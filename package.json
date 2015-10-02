@@ -1,0 +1,20 @@
+{
+  "name": "x2sj",
+  "version": "0.1.0",
+  "description": "Transforms an excel spreadsheet into JSON for document ingestion into SOLR",
+  "keywords": [ "excel", "solr", "json", "transform","bluemix","retrieve and rank"],
+  "main": "x2sj.js",
+  "author": "Chris Madison <cmadison@us.ibm.com> (http://developer.ibm.com/bluemix/author/cmadison)",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "cli": "^0.10.0",
+    "excel": "^0.1.4"
+  },
+  "repository":{
+	"type":"git",
+        "url":"https://github.com/cognitive-catalyst/x2sj.git"
+  },
+  "bin":{
+    "x2sj": "bin/x2sj.js"
+  }
+}
